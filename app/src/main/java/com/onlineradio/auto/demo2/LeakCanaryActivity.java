@@ -16,5 +16,6 @@ public class LeakCanaryActivity extends Activity {
         setContentView(R.layout.activity_main);
         //获取单例对象，退出Activity即可模拟出内存泄露
         TestManager testManager = TestManager.getInstance(this);
+
     }
 }
